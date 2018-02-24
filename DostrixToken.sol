@@ -8,7 +8,7 @@ contract DostrixToken is ERC20Basic
     uint256 public totalsupply;
     uint256  initialallowed;
     uint256 public decimals;
-    uint256 rate = 0.1 ether;
+  
     address Owner;
 
     mapping(address=>uint) public balanceOf;
